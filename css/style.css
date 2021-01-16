@@ -573,7 +573,11 @@ footer {border-top-left-radius: 40px;}
   .checkout-sec {font-size: 13px;}
   .billing-box {margin-bottom: 30px;}
   .about-text {font-size: 16px;}
-  .banner-animation {display: none;}
+  #filo {height: 110px;}
+  .bulb-input {top: 110px;}
+  .bulb-input[value="on"] {top: 110px;}
+  .bulb-input[value="on"]:checked + input[value="off"] {top: 110px;}
+  .bulb-label {top: 124px;}
 }
 
 @media (max-width: 480px) {
