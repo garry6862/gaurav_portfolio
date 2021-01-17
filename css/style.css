@@ -116,7 +116,7 @@ button:focus, .form-control:focus, input:focus, .btn:focus {box-shadow: none;-we
 .light-head.big {font-size: 30px;}
 .light-head.grey {font-size: 48px;color: #aaa;}
 /******************** headings ***********************/
-.quote-ball, .theme-btn, .subs-dv .theme-btn:hover, .my-nav-links a:after, .promo-sec {background-color: #e0740a;background-image: linear-gradient(to right, #ff8400 50%, #fe450f 100%);color: #fff;overflow: hidden;}
+.quote-ball, .theme-btn, .subs-dv .theme-btn:hover, .my-nav-links a:after, .promo-sec, .about-text li:before {background-color: #e0740a;background-image: linear-gradient(to right, #ff8400 50%, #fe450f 100%);color: #fff;overflow: hidden;}
 .theme-btn {line-height: 1.6;display: inline-block;min-width: 160px;border: none;text-align: center;font-size: 15px;padding: 8px 30px;white-space: nowrap;text-transform: uppercase;position: relative;}
 .theme-btn:after {content: '';position: absolute;top: 0;left: 0;z-index: 2;height: 100%;width: 100%;border: 2px solid transparent;z-index: -1;}
 .theme-btn.inverse, .theme-btn:hover {background-image: none;background-color: transparent;color: #e0740a;}
@@ -260,6 +260,8 @@ footer {border-top-left-radius: 40px;}
 .team-wrap img {padding-right: 10px;}
 .team-wrap .light-head.black {font-size: 15px;}
 .about-text {font-size: 22px;}
+.about-text li {position: relative;padding-left: 15px;}
+.about-text li:before {content: '';position: absolute;left: 0;top: 10px;height: 7px;width: 7px;border-radius: 50%;}
 .user-img {height: 120px;width: 120px;display: inline-block;background-color: #ddd;border-radius: 50%;overflow: hidden;padding: 5px 0 0;border: 3px solid #f67008}
 /******************** abput-page css  ***********************/
 
@@ -573,6 +575,7 @@ footer {border-top-left-radius: 40px;}
   .checkout-sec {font-size: 13px;}
   .billing-box {margin-bottom: 30px;}
   .about-text {font-size: 16px;}
+  .about-text li:before {top: 7px;}
   #filo {height: 110px;}
   .bulb-input {top: 110px;}
   .bulb-input[value="on"] {top: 110px;}
