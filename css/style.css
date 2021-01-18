@@ -405,7 +405,7 @@ footer {border-top-left-radius: 40px;}
 
 
 /******************** Responsive css  ***********************/
-@media (min-width: 1600px) {
+@media (min-width: 1601px) {
   .inner-container {max-width: 1520px;}
   html, body, .demo-link, .light-head, .about-sec p, .grey-head, .table-outer, .subs-dv {font-size: 24px;}
   .prod-box .light-head {font-size: 26px;}
