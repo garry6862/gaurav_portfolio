@@ -406,7 +406,7 @@ footer {border-top-left-radius: 40px;}
 
 /******************** Responsive css  ***********************/
 @media (min-width: 1600px) {
-  .inner-container {max-width: 1600px;}
+  .inner-container {max-width: 1520px;}
   html, body, .demo-link, .light-head, .about-sec p, .grey-head, .table-outer, .subs-dv {font-size: 24px;}
   .prod-box .light-head {font-size: 26px;}
   .head-lg {font-size: 86px;margin-bottom: 35px;}
@@ -425,6 +425,7 @@ footer {border-top-left-radius: 40px;}
   .sm-footer p, .cart-table th {font-size: 16px;}
   .xs-container {max-width: 900px;}
   header {padding: 25px 0;}
+  .banner-animation {top: 120px;}
   .sec-pd {padding: 90px 0;}
   .spec-box {padding: 75px 25px;}
   .spec-box p {margin-bottom: 40px;}
